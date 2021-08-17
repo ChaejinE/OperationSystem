@@ -86,7 +86,7 @@ Cache ?
 - Main Memory가 8GB이고, Disk가 20GB 처럼 상대적으로 저장 곤간이 적은데, 어떻게 올린단 말인가 ?
   - Virtual Memory의 개념이 이에 대한 해답이 된다고 한다. (공부하면서 나중에 나온다.)
 
-# System Bus
+## 4. System Bus
 - H/W들이 Data 및 Signal을 주고 받는 물리적 통로 (PATH)
 - data bus : 배선 수가 **프로세서가 한번에 전송할 수 있는 비트 수를 결정**한다. (이를 word라고한다.)
 - address bus : 배선 수가 **프로세스와 접속할 수 있는 CPU의 최대 용량을 결정**한다.
@@ -97,7 +97,7 @@ Cache ?
 ![image](https://user-images.githubusercontent.com/69780812/129765511-ad66a20c-dca0-4d9a-b64e-9e2d0ae8c8dd.png)
 - 이 사진은 비가시 레지스터의 동작 Flow 이해에도 도움이 많이 된다.
 
-# 주변장치
+## 5. 주변장치
 - 입력 : 키보드, 마우스 등
 - 출력 : 모니터 등
 - 저장 : CD, USB 등
