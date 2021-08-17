@@ -26,8 +26,6 @@ Register ?
       - 3. Accumulator : Data를 일시적으로 저장한다.
       - 뒤에서 더 설명 (간략하게 line by line으로 Write된 code를 해석하고, PC에 다음 실행할 코드에 대한 주소를 저장한다. 그 다음 IR에 전달)
 ```
-![image](https://user-images.githubusercontent.com/69780812/129761549-7bd39792-fe41-48fb-8556-176879a213c0.png)
-
 
 ***운영체제는*** 
 
@@ -39,6 +37,8 @@ Register ?
 
 ## 2. Memory
 - 데이터를 저장하는 공간이다.
+
+![image](https://user-images.githubusercontent.com/69780812/129761549-7bd39792-fe41-48fb-8556-176879a213c0.png)
 - Register -> Chache -> DRAM -> HDD
   - 왼쪽일 수록 속도가 빠르다.
   - 오른쪽일 수록 저장 공간이 많다.
