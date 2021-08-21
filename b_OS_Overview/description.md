@@ -42,7 +42,7 @@
 
 - ***1. Batch System (1950 ~ 60s)***
 
-![image](https://user-images.githubusercontent.com/69780812/130319185-7d5a3fdc-179e-4f4a-a68f-7d9998a14f4c.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319185-7d5a3fdc-179e-4f4a-a68f-7d9998a14f4c.png)
   - 사용자 요청 작업을 모은다.
   - 100개 모이면 한번에 처리하는 방식
   - **작업 준비 시간이 줄어드는 효과**가 있었다.
@@ -52,16 +52,16 @@
 
 - ***2. Timer Sharing Systemm***
 
-![image](https://user-images.githubusercontent.com/69780812/130319200-91ff12c0-77e1-46b3-ac3e-5a12088b1fc9.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319200-91ff12c0-77e1-46b3-ac3e-5a12088b1fc9.png)
   - 여러 사용자가 자원을 동시에 사용하도록 했다.
   - 단지, 특정 시간동안 A 작업을 하다가 B작업으로 전환하여 특정 시간 반복
     - OS가 **File System & Virtual Memory를 관리하기 시작**한다.
 
-![image](https://user-images.githubusercontent.com/69780812/130319247-43e37974-0d9e-4797-8c26-f98991e38100.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319247-43e37974-0d9e-4797-8c26-f98991e38100.png)
   - **User Oriented (사용자 지향적)**
     - 단말기를 사용해서 대화형으로 일을 처리했다.
 
-![image](https://user-images.githubusercontent.com/69780812/130319353-32739b9e-9df2-4e8e-93d9-91636c07669b.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319353-32739b9e-9df2-4e8e-93d9-91636c07669b.png)
   - 응답시간이 단축되기는 했다. 5초 정도..
   - 배치처럼 특정 Task에 대한 Program 처리가 끝나고, 다른 Task로의 준비 시간이 없어져서 Process 가 쉴 시간이 줄어들었다. -> **생산성 향상**
   - 하지만, Process 간의 **통신 비용이 증가**했다.
@@ -76,7 +76,7 @@
 
 - ***4. Parallel Processing System***
 
-![image](https://user-images.githubusercontent.com/69780812/130319747-41a003af-587c-447b-8898-2ce1c7cf755e.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319747-41a003af-587c-447b-8898-2ce1c7cf755e.png)
   - CPU가 여러개이며, Memory등 Resource들을 공유하게 된다.
   - 자원을 동시에 공유해서 **Tightly-coupled System**이라고도 부른다.
   - **성능이 향상**되고, **신뢰성이 향상**되었다.
@@ -85,7 +85,7 @@
 
 - ***5. Distributed Processing System***
 
-![image](https://user-images.githubusercontent.com/69780812/130319762-6c529461-88ef-4678-a932-7e2cee6ea2cc.png)
+- ![image](https://user-images.githubusercontent.com/69780812/130319762-6c529461-88ef-4678-a932-7e2cee6ea2cc.png)
   - CPU를 개인 COM에 다 넣기엔 한계가 있더라.. 100개를 넣을 수는 없으니..
   - Network 기반으로 여러 컴퓨터를 구축한 System이다.
   - Node(개인)들이 각자 OS를 따로 갖고있다.
